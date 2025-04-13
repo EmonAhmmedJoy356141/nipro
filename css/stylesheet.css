@@ -1,0 +1,460 @@
+/* Font Family part */
+@font-face {
+    font-family:Lato-Bold ;
+    src: url(../font/Lato-Bold.ttf);
+}
+@font-face {
+    font-family:Lato-Regular ;
+    src: url(../font/Lato-Regular.ttf);
+}
+@font-face {
+    font-family:Lato-Medium ;
+    src: url(../font/Lato-Medium.ttf);
+}
+
+/* CSS Variable part */
+:root{
+    --lb: Lato-Bold;
+    --lr: Lato-Regular;
+    --lm: Lato-Medium;
+    --as: #8e8e8e;
+    --wh: #ffffff;
+    --bl: #0c0c0c;
+}
+/* Common CSS part */
+body{
+    font-family: var(--lr);
+    font-size: 16px;
+    color: var(--as);
+}
+/* header part start */
+.c_nav{
+    margin-bottom: 30px;
+}
+.logo img{
+    width: 100%;
+}
+.c_toggler {
+    margin-top: 30px;
+}
+.menu{
+    margin-top: 30px;
+}
+.menu ul li a{
+    margin-right: 20px !important;
+    font-size: 16px !important;
+    color: var(--as) !important;
+    text-transform: uppercase;
+    transition: .3s linear;
+}
+.menu ul li a:hover{
+    color: var(--bl) !important;
+}
+/* header part end */
+/* banner part start */
+.bg_image{
+    height: 700px;
+    background-image: url(../images/banner.png); 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.b_text{
+    align-items: center;
+}
+.b_text h1{
+    font-family: var(--lb);
+    font-size: 60px;
+    color: var(--wh);
+}
+.b_text p{
+    margin: 45px 0;
+    color: var(--wh); 
+}
+.c_btn{
+    border: none;
+    padding: 15px 30px;
+}
+.c_btn a{
+    color: var(--as);
+    text-transform: uppercase;
+}
+.c_btn a i{
+    margin-left:10px;
+}
+.c_btn:hover{
+    font-weight: 600;
+    color: var(--wh) !important;
+    background-color: var(--bl) ;
+}
+.custom-indicators {
+    bottom: 10px;
+    left: 55px;
+  }
+.custom-indicators button {
+    font-family: var(--lr);
+    font-size: 16px;
+    color: var(--as);
+    background: none;
+    border: none;
+    opacity: .5;
+}
+.custom-indicators button:active{
+    opacity: 1;
+}
+/* banner part end */
+/* welcome part start */
+.v_line {
+    width: 2px;
+    height: 50px;
+    background-color: var(--bl);
+   
+}
+.w_text h1{
+    margin-top: 30px;
+    font-size: 30px;
+    color: var(--bl);
+    text-transform: uppercase;
+}
+.w_text p{
+    margin: 45px 0 100px;
+}
+/* Welcome icon part start  */
+.w_icon_container{
+    border: 1px solid #cccccc;
+    transition: .5s linear;
+}
+.w_icon span i{
+    font-size: 40px;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 0 5px;
+}
+.w_icon_container:hover{
+    border: 1px solid var(--bl);
+    box-shadow: 0px 20px 40px 0px #0000001A;
+}
+.icon_text hr{
+    width: 60px;
+}
+.icon_text h2{
+    font-family: var(--lb);
+    font-size: 25px;
+    margin:35px 0 15px;
+    text-transform: uppercase;
+}
+.icon_text p{
+    margin-top: 15px;
+}
+.w_btn{
+    margin: 35px 0;
+    padding: 0;
+    background: none;
+}
+.w_btn:hover{
+    background: none;
+}
+.w_btn a:hover{
+    color: var(--bl);
+}
+/* about part start */
+.about{
+    padding: 100px 0;
+}
+.about_text h1{
+    font-size: 30px;
+    color: var(--bl);
+    text-transform: uppercase;
+}
+.about_text p{
+    margin: 40px 0 50px;
+}
+.a_btn{
+    border: 1px solid var(--bl);
+    background: none;
+}
+.a_btn:hover{
+    background: none;
+}
+
+/* Recent work */
+.recent{
+    background-color: #f8f8f8;
+    padding-bottom: 100px;
+}
+.r_text h1{
+    margin-top: 30px;
+    margin-bottom: 100px !important;
+    font-size: 30px;
+    color: var(--bl);
+    text-transform: uppercase;
+}
+.r_btn{
+    margin-right: 7px;
+    background: none;
+    padding: 15px;
+}
+.r_span{
+    font-family: var(--lb);
+    font-size: 25px;
+    color: var(--as);
+}
+.r_btn:hover{
+    background: none;
+    border: 1px solid black;
+}
+.r_btn a{
+    font-family: var(--lr);
+    font-size: 16px;
+    color: var(--as);
+}
+.r_image img{
+    width: 100%;
+}
+.r_image{
+    margin-top: 40px;
+}
+.r_image_text h2{
+    font-family: var(--lb);
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--bl);
+}
+.overlay {
+    background: rgba(0, 0, 0, 0.4); 
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+.r_image_container:hover .overlay {
+    opacity: 1;
+}
+.over_btn{
+    background: none;
+}
+.over_btn:hover{
+    background: none;
+}
+.over_btn i{
+    font-size: 60px !important;
+    color: var(--wh) !important;
+    cursor: pointer;
+}
+.r_image{
+    margin-top: 40px;
+}
+/* choose part start */
+.choose{
+    padding-bottom: 100px;
+}
+.choose_text h1{
+    margin-bottom: 50px !important;
+}
+.wrapper{
+    margin-top: 50px;
+}
+.choose_icon span i{
+    font-size: 40px;
+}
+.choose_tittle h2:hover{
+    color: var(--bl);
+}
+.choose_tittle h2{
+    font-family: var(--lb);
+    font-size: 18px;
+    color: var(--as);
+    text-transform: uppercase;
+}
+.choose_p{
+    border-bottom: 1px solid #cccccc;
+}
+.choose_p p{
+    margin: 40px 0;
+}
+.choose_p:hover{
+    border-bottom: 1px solid var(--bl);
+}
+/* work with us */
+
+.image_wrapper{
+    padding: 50px 0 100px;
+}
+.work_bg{
+    background-image: url(../images/banner2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image_overlay {
+    top: 13%;
+    background-color: white;
+    transform: translateX(-100%);
+    transition: transform 0.4s ease-in-out;
+}
+  
+.work_image:hover .image_overlay {
+    transform: translateX(0);
+}
+  
+.image_overlay a {
+    color:var(--as);
+    font-size: 20px;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+.image_overlay a:hover {
+    transform: scale(1.2);
+  }
+.work_tittle{
+    padding: 3px !important;
+    margin-left: 10px;
+}
+.work_tittle h2{
+    font-size: 16px;
+}
+.work_tittle p{
+    color: var(--as);
+}
+/* price part start */
+.price_container{
+    border: 1px solid #cccccc;
+    transition: .5s linear;
+}
+.price_container:hover{
+    border: 1px solid var(--bl);
+
+}
+.price_tittle h2{
+    font-size: 18px;
+    font-family: var(--lb);
+    color: var(--bl);
+    top: -4%;
+    left: 15%;
+    background-color: var(--wh);
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+.price{
+    padding: 0 30px;
+    margin-top: 70px;
+}
+.price h3{
+font-size: 25px;
+font-family: var(--lb);
+color: var(--bl);
+top: 10%;
+
+}
+.price h3 span{
+    font-size: 18px;
+    font-family: var(--lb);
+    color: var(--as);
+}
+.p_btn{
+    margin: 30px 0;
+    background: none;
+    border: 1px solid var(--as);
+    padding: 15px 30px;
+}
+.p_btn:hover{
+    color: var(--bl);
+    background-color: #f8f8f8;
+    border: 1px solid var(--bl);
+
+}
+.p_container{
+    padding: 100px 0;
+}
+/* nipro part start */
+.nipro{
+    padding: 30px 0;
+    background-color: #f8f8f8;
+}
+.n_text h2{
+    margin: 0;
+    font-family: var(--lr);
+    color: var(--as);
+}
+/* introduce part  */
+.int{
+    padding: 100px 0;
+}
+.int_container{
+    border: 1px solid var(--as);
+}
+.int_text, .int_image{
+    margin: 40px 0;
+}
+.int_text h1, h2, h3{
+    margin-bottom: 20px;
+    font-family: var(--lb);
+    font-size: 18px;
+    color: var(--bl);
+    text-transform: uppercase;
+}
+.int_text h2{
+    color: var(--as);
+    background: none;
+}
+.custom_btn span{
+    color: var(--bl);
+}
+/* contact us part */
+.custom_form{
+    border: none;
+    border-bottom: 1px solid var(--bl);
+    border-color: #cccccc;
+    border-radius: 0;
+}
+.custom_form:focus {
+    background-color: none;
+    border-color: var(--bl);
+    box-shadow: none;
+}
+.contact_tittle h1{
+    font-family: var(--lr);
+    font-size: 25px;
+    text-transform: uppercase;
+    background-color: var(--wh);
+    padding: 0 10px;
+    top: -4%;
+    left: 45%;
+}
+.form_container{
+    margin-top: 100px;
+}
+/* agency part start */
+.agency{
+    margin-top: 80px;
+}
+.ag_tittle p{
+    color: var(--wh);
+}
+.ag_bg{
+    height: 456px;
+    background: url(../images/banner-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.f_icon {
+    margin-top: 30px;
+}
+.f_icon ul li a i{
+    margin-right: 10px;
+    font-size: 30px !important;
+    color: var(--wh) !important;
+    transition: .3s linear;
+}
+.f_icon ul li a i:hover {
+    transform: scale(1.2);
+}
+.fotter_container{
+    margin-top: 50px;
+}
+.fotter_text p{
+    color: var(--wh);
+}
+.fotter_terms ul li a{
+    font-size: 16px;
+    color: var(--wh);
+}

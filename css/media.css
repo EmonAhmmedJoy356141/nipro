@@ -1,0 +1,442 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+/* header part start */
+.logo {
+    width: 45%;
+}
+.c_f {
+    margin-top: 10px;
+}
+/* banner part start */
+.bg_image {
+    height: 400px;
+}
+.b_text h1 {
+    font-size: 25px;
+}
+.b_text p {
+    margin: 35px 0;
+}
+.c_btn {
+    padding: 10px;
+}
+.custom-indicators {
+    bottom: 10px;
+    left: 0px;
+}
+/* welcome part */
+.w_text h1{
+    font-size: 25px;
+}
+.w_text p {
+    margin: 25px 0 0px;
+}
+.w_icon_container {
+    margin: 40px 0 0;
+}
+.w_btn {
+    margin: 20px 0;
+    padding: 0;
+    background: none;
+}
+/* about part */
+.about {
+    padding: 50px 0;
+}
+.about_image {
+    padding: 0px 25px 20px;
+}
+.about_text h1 {
+    font-size: 25px;
+}
+.about_text p {
+    margin: 20px 0 30px;
+}
+.drop_menu {
+    display: flex;
+}
+/* recent part */
+.recent {
+    padding-bottom: 70px;
+}
+.r_text h1 {
+    margin-top: 20px;
+    margin-bottom: 40px !important;
+    font-size: 25px;
+}
+/* Choose nipro */
+.choose {
+    padding-bottom: 50px;
+}
+.wrapper {
+    margin-top: 40px;
+}
+.choose_text h1{
+    margin-bottom: 0px !important;
+}
+.choose_p p {
+    margin: 30px 0;
+}
+/* work us part */
+.work_us_container{
+    margin-top: 50px;
+}
+.image_wrapper{
+     padding: 0 20px 60px;
+}
+/* price part start */
+.p_container {
+    padding: 0px 0 70px;
+}
+.p_wrapper{
+    padding: 0 30px;
+}
+.price_container {
+    margin-top: 50px;;
+}
+/* nipro part */
+.nipro {
+    padding: 30px 0;
+}
+.n_text h2 {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+/* introduce part */
+.int_image, .int_text{
+    text-align: center;
+}
+/* contact part */
+.contact_tittle h1 {
+    top: -3%;
+    left: 22%;
+}
+/* agency part */
+.int_text p {
+    margin-left: 15px;
+}
+/* agency part */
+.ag_bg {
+    height: 550px;
+}
+.ag_tittle p{
+    margin-top: 20px;
+}
+/* fotter part */
+.fotter_terms ul li a {
+    line-height: 25px;
+}
+.f_icon {
+    margin-top: 20px;
+}
+.f_icon ul li a i {
+    margin-right: 6px;
+    font-size: 25px !important;
+}
+.fotter_container {
+    margin-top: 20px;
+}
+.fotter_text p {
+    font-size: 18px;
+}
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+/* header part start */
+.c_f {
+    margin-top: 10px;
+}
+/* banner part start */
+.bg_image {
+    height: 400px;
+}
+.b_text h1 {
+    font-size: 35px;
+}
+.b_text p {
+    margin: 35px 0;
+}
+.c_btn {
+    padding: 10px 20px;
+}
+.custom-indicators {
+    bottom: 10px;
+    left: 12px;
+}
+/* welcome part */
+.w_text h1{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.w_text p {
+    margin: 35px 0 0px;
+}
+.w_icon_container {
+    margin: 40px 0 0;
+}
+.w_btn {
+    margin: 20px 0;
+    padding: 0;
+    background: none;
+}
+.icon_text h2 {
+    font-size: 20px;
+}
+/* about part */
+.about {
+    padding: 50px 0;
+}
+.about_image {
+    padding: 0 50px 30px;
+}
+.about_text h1 {
+    font-size: 25px;
+}
+.about_text p {
+    margin: 30px 0 45px;
+}
+/* recent work */
+.recent {
+    padding-bottom: 70px;
+}
+.r_text h1 {
+    margin-top: 20px;
+    margin-bottom: 30px !important;
+    font-size: 25px;
+}
+.drop_menu {
+    display: flex;
+}
+/* choose part */
+.choose {
+    padding-bottom: 50px;
+}
+.wrapper {
+    margin-top: 30px;
+}
+.choose_p p {
+    margin: 30px 0;
+}
+/* work us part */
+.work_us_container{
+    margin-top: 30px;
+    padding: 0 10px;
+}
+.image_wrapper{
+    padding: 0px 0px 80px;
+}
+/* price part start */
+.p_container {
+    padding: 0px 0 70px;
+}
+.p_wrapper{
+    padding: 0 15px;
+}
+.price_container {
+    margin-top: 50px;;
+}
+/* introduce part */
+.int {
+    padding: 70px 0;
+}
+.int_image, .int_text{
+    text-align: center;
+}
+.n_text h2 {
+    margin: 0;
+    padding: 20px 0;
+}
+.int_text p {
+    margin-left: 15px;
+}
+/* contact part */
+.contact_tittle h1 {
+    left: 35%;
+}
+/* agency part */
+ .ag_bg {
+    height: 400px;
+}
+/* fotter part */
+.f_icon {
+    margin-top: 20px;
+}
+.fotter_container {
+    margin-top: 20px;
+}
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+/* header part start */
+.c_f {
+    margin-top: 10px;
+}
+/* banner part start */
+.bg_image {
+    height: 450px;
+}
+.b_text h1 {
+    font-size: 35px;
+}
+.b_text p {
+    margin: 35px 0;
+}
+.custom-indicators {
+    bottom: 10px;
+    left: 18px;
+}
+/* welcome part */
+.w_text p {
+    margin: 50px 0 10px;
+}
+.w_icon_container {
+    margin: 40px 0 0;
+}
+/* about part */
+.about {
+    padding: 80px 0;
+}
+.about_image{
+    padding: 0 100px 40px;
+}
+.about_text p {
+    margin: 35px 0 45px;
+}
+/* recent part */
+.recent {
+    padding-bottom: 80px;
+}
+.r_text h1 {
+    margin-bottom: 50px !important;
+}
+.r_btn {
+    margin-right: 5px;
+    padding: 10px;
+}
+/* choose part */
+.choose {
+    padding-bottom: 70px;
+}
+.wrapper {
+    margin-top: 30px;
+}
+.choose_p p {
+    margin: 30px 0;
+}
+/* work_us part */
+.work_us_container{
+    margin-top: 30px;
+    padding: 0 30px;
+}
+.image_wrapper{
+     padding: 0px 0px 80px;
+}
+/* price part start */
+.p_container {
+    padding: 0px 0 70px;
+}
+.p_wrapper{
+    padding: 0 30px;
+}
+.price_container {
+    margin-top: 50px;;
+}
+/* int part */
+.int {
+    padding: 70px 0;
+}
+
+/* nipro part */
+.nipro {
+    padding: 15px 0;
+}
+/* contact part */
+.contact_tittle h1 {
+    left: 38%;
+ }
+ /* agency part start */
+ .agency{
+    margin-top: 50px;
+}
+ /* .ag_bg {
+    height: 400px;
+} */
+/* fotter part */
+.f_icon {
+    margin-top: 20px;
+}
+.fotter_container {
+    margin-top: 20px;
+}
+ }
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+/* header part start */
+.c_f {
+    margin-top: 10px;
+}
+/* banner part start */
+.b_text h1 {
+    font-size: 50px;
+}
+.custom-indicators {
+    bottom: 10px;
+    left: 25px;
+}
+/* welcome part */
+.w_text p {
+    margin: 40px 0;
+}
+.w_icon_container {
+    margin: 40px 0 0;
+}
+/* about part */
+.about_image{
+    height: 100%;
+}
+.about_text p {
+    margin: 40px 0 55px;
+}
+/* Recen work */
+/* work_us part */
+.image_overlay a {
+    margin: 5px;
+}
+.image_overlay {
+    top: 10%;
+
+}
+.work_tittle{
+    padding: 3px !important;
+    margin-left: 10px;
+}
+.work_tittle h2{
+    font-size: 16px;
+}
+/* contact part */
+.contact_tittle h1 {
+    left: 43%;
+ }
+ /* agency part start */
+ .ag_bg {
+    height: 500px;
+}
+}
+  /*Extra Large devices (desktops, 992px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+/* banner part */
+.custom-indicators {
+    bottom: 10px;
+    left: 25px;
+}
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) { 
+    .container-sm{
+        display: none;
+    }
+ }
